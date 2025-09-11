@@ -1,0 +1,189 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Codes Table</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+</head>
+<body class="bg-gray-100 p-6">
+  <div class="max-w-7xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+    <h1 class="text-2xl font-semibold mb-6 flex items-center gap-3 text-gray-800">
+      <img
+        alt="Blue square icon"
+        class="inline-block"
+        height="24"
+        src="https://storage.googleapis.com/a1aa/image/2ff00c6f-a84c-4053-fd34-5f2529f6bbe2.jpg"
+        width="24"
+      />
+      Codes Table
+    </h1>
+
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 gap-4">
+      <div class="flex items-center space-x-3 w-full sm:w-auto">
+        <input
+          type="text"
+          placeholder="Search..."
+          class="w-full sm:w-64 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+          aria-label="Search codes"
+        />
+        <button
+          type="button"
+          class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md shadow-md flex items-center gap-2 transition"
+          aria-label="Search button"
+        >
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+
+      <div class="flex items-center space-x-3 w-full sm:w-auto justify-end">
+        <button
+          type="button"
+          class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded-md shadow-sm flex items-center gap-2 transition"
+          aria-label="Filter button"
+        >
+          <i class="fas fa-filter"></i> Filter
+        </button>
+      </div>
+    </div>
+
+    <div class="overflow-x-auto rounded-lg border border-gray-200 shadow-sm">
+      <table class="min-w-full divide-y divide-gray-200">
+        <thead class="bg-blue-600">
+          <tr>
+            <th
+              scope="col"
+              class="px-6 py-3 text-left text-xs font-semibold text-white uppercase tracking-wider select-none"
+            >
+              System
+            </th>
+            <th
+              scope="col"
+              class="px-6 py-3 text-left text-xs font-semibold text-white uppercase tracking-wider select-none"
+            >
+              Code
+            </th>
+            <th
+              scope="col"
+              class="px-6 py-3 text-left text-xs font-semibold text-white uppercase tracking-wider select-none"
+            >
+              Name
+            </th>
+            <th
+              scope="col"
+              class="px-6 py-3 text-left text-xs font-semibold text-white uppercase tracking-wider select-none"
+            >
+              Description
+            </th>
+            <th
+              scope="col"
+              class="px-6 py-3 text-center text-xs font-semibold text-white uppercase tracking-wider select-none"
+            >
+              Actions
+            </th>
+          </tr>
+        </thead>
+        <tbody class="bg-white divide-y divide-gray-200 text-gray-700 text-sm">
+          <tr class="hover:bg-blue-50 transition">
+            <td class="px-6 py-4 whitespace-nowrap">NAMASTE</td>
+            <td class="px-6 py-4 whitespace-nowrap">AYU001</td>
+            <td class="px-6 py-4 whitespace-nowrap">Ama Dosha</td>
+            <td class="px-6 py-4 whitespace-nowrap">
+              Traditional Ayurveda disorder
+            </td>
+            <td class="px-6 py-4 whitespace-nowrap text-center space-x-2">
+              <button
+                class="text-blue-600 hover:text-blue-800"
+                aria-label="Edit NAMASTE"
+                title="Edit"
+              >
+                <i class="fas fa-edit"></i>
+              </button>
+              <button
+                class="text-red-600 hover:text-red-800"
+                aria-label="Delete NAMASTE"
+                title="Delete"
+              >
+                <i class="fas fa-trash-alt"></i>
+              </button>
+            </td>
+          </tr>
+          <tr class="hover:bg-blue-50 transition">
+            <td class="px-6 py-4 whitespace-nowrap">ICD11-TM2</td>
+            <td class="px-6 py-4 whitespace-nowrap">XM1234</td>
+            <td class="px-6 py-4 whitespace-nowrap">Qi Stagnation</td>
+            <td class="px-6 py-4 whitespace-nowrap">
+              Traditional Medicine diagnosis
+            </td>
+            <td class="px-6 py-4 whitespace-nowrap text-center space-x-2">
+              <button
+                class="text-blue-600 hover:text-blue-800"
+                aria-label="Edit ICD11-TM2"
+                title="Edit"
+              >
+                <i class="fas fa-edit"></i>
+              </button>
+              <button
+                class="text-red-600 hover:text-red-800"
+                aria-label="Delete ICD11-TM2"
+                title="Delete"
+              >
+                <i class="fas fa-trash-alt"></i>
+              </button>
+            </td>
+          </tr>
+          <tr class="hover:bg-blue-50 transition">
+            <td class="px-6 py-4 whitespace-nowrap">ICD11-Biomed</td>
+            <td class="px-6 py-4 whitespace-nowrap">MG30</td>
+            <td class="px-6 py-4 whitespace-nowrap">Type 2 Diabetes</td>
+            <td class="px-6 py-4 whitespace-nowrap">Biomedical diagnosis</td>
+            <td class="px-6 py-4 whitespace-nowrap text-center space-x-2">
+              <button
+                class="text-blue-600 hover:text-blue-800"
+                aria-label="Edit ICD11-Biomed"
+                title="Edit"
+              >
+                <i class="fas fa-edit"></i>
+              </button>
+              <button
+                class="text-red-600 hover:text-red-800"
+                aria-label="Delete ICD11-Biomed"
+                title="Delete"
+              >
+                <i class="fas fa-trash-alt"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="mt-6 flex justify-end space-x-3">
+      <button
+        type="button"
+        class="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-md shadow-md flex items-center gap-2 transition"
+        aria-label="Add new code"
+      >
+        <i class="fas fa-plus"></i> Add
+      </button>
+      <button
+        type="button"
+        class="bg-yellow-500 hover:bg-yellow-600 text-white px-5 py-2 rounded-md shadow-md flex items-center gap-2 transition"
+        aria-label="Edit selected code"
+      >
+        <i class="fas fa-edit"></i> Edit
+      </button>
+      <button
+        type="button"
+        class="bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-md shadow-md flex items-center gap-2 transition"
+        aria-label="Delete selected code"
+      >
+        <i class="fas fa-trash-alt"></i> Delete
+      </button>
+    </div>
+  </div>
+</body>
+</html>
